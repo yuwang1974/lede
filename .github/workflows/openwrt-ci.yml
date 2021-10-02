@@ -119,7 +119,7 @@ jobs:
             CONFIG_PACKAGE_kmod-fs-ntfs=y
             CONFIG_PACKAGE_kmod-fs-squashfs=y
           EOF
-          # 定制IP地址：
+          # 定制IP地址： 
           cat >> .config <<EOF
             CONFIG_TARGET_PREINIT_IFNAME=""
             CONFIG_TARGET_PREINIT_IP="192.168.2.80"
